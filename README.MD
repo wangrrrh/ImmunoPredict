@@ -1,3 +1,5 @@
+test_data获取方式：https://drive.google.com/file/d/15ajEDBHX5-YvySO3tgqt_NjWdLVAPUK6/view?usp=sharing
+
 # 功能点测试1：数据输入
 ## 原始单细胞转录组表达矩阵
 python first.py --raw yes --input_file test_data/rawdata/GSE123813_bcc_counts.txt test_data/rawdata/GSE123813_metadata.csv --output_file test_data/GSE123813.h5ad
