@@ -22,9 +22,8 @@ test_data获取方式：https://drive.google.com/drive/folders/1TQgtWMWT2Jmo_oai
 
 ## 软件环境异常
 ```
-conda create -n test python=3.10 
+conda env create -f environment.yml
 conda activate test
-pip install -r requirements.txt
 python fourth.py
 ```
 
