@@ -28,7 +28,7 @@ if args.raw.lower() == 'yes':
     adata.obs = meta
     sc.write(output_path, adata)
     output_path = args.output_file
-    print(f'Data processed，the ouput path is：{output_path}')
+    print(f'Data processed, the output path is {output_path}')
 else:
     file_path = input_files[0]
     adata = sc.read(file_path)
