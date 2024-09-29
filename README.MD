@@ -1,4 +1,4 @@
-test_data获取方式：https://drive.google.com/file/d/15ajEDBHX5-YvySO3tgqt_NjWdLVAPUK6/view?usp=sharing
+test_data获取方式：https://drive.google.com/drive/folders/1TQgtWMWT2Jmo_oaii2iyneMNix68oMlc?usp=sharing
 
 # 功能点测试1：数据输入
 ## 原始单细胞转录组表达矩阵
