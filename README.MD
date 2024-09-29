@@ -4,7 +4,7 @@ test_data获取方式：https://drive.google.com/file/d/15ajEDBHX5-YvySO3tgqt_Nj
 ## 原始单细胞转录组表达矩阵
 python first.py --raw yes --input_file test_data/rawdata/GSE123813_bcc_counts.txt test_data/rawdata/GSE123813_metadata.csv --output_file test_data/GSE123813.h5ad
 ## 带有meta信息的H5AD格式数据
-python /public8/lilab/student/rhwang/ICB/patent/first.py --raw no --input_file test_data/GSE123813.h5ad
+python first.py --raw no --input_file test_data/GSE123813.h5ad
 
 # 功能点测试2：参数选择
 ## 是否进行单细胞转录组表达矩阵质量控制
