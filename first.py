@@ -5,8 +5,7 @@ import scanpy as sc
 import pandas as pd
 
 parser = argparse.ArgumentParser(description='Processing single-cell data')
-parser.add_argument('--raw', type=str, help='
-Whether to use original data(yes/no)')
+parser.add_argument('--raw', type=str, help='Whether to use original data(yes/no)')
 parser.add_argument('--input_files', type=str, nargs='+', help='Input file path')
 parser.add_argument('--output_file', type=str, help='Ouput file path')
 
